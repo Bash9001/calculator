@@ -1,0 +1,53 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainApp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 800px;
+    border: 10px;
+    border-color: black;
+    background-color: rgba(187, 187, 187, 0.467);
+}
+
+.screen {
+    width: auto;
+    height: 100px;
+    background-color: rgb(113, 170, 118);
+}
+
+.keypad {
+    background-color: rgb(112, 112, 112);
+}
+
+.largeBtn {
+    color: rgb(255, 255, 255);
+}
+
+#allClear {
+    background-color: rgb(255, 72, 0);
+}
+
+#clear {
+    background-color: rgb(46, 43, 255);
+}
+
+.smallBtn {
+    background-color: rgb(170, 170, 170);
+    color: rgb(255, 255, 255);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-top: 10px;
+}
