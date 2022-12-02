@@ -13,33 +13,45 @@
     </header>
     <div class="mainApp">
         <div class="screen">
-            <div class="history"></div>
-            <div class="current"></div>
+            <div id="history"></div>
+            <div class="workingscreen" id="workingScreen">0</div>
         </div>
 
         <div class="keypad">
-            <button class="largeBtn" id="allClear">AC</button>
-            <button class="largeBtn" id="clear">C</button>
-            
-            <button class="smallBtn">7</button>
-            <button class="smallBtn">8</button>
-            <button class="smallBtn">9</button>
-            <button class="smallBtn">÷</button>
+            <div class="rows" id="row1">
+                <button id="prevAns">Ans</button>
+                <button id="delete">Del</button>
+                <button id="clear">C</button>
+                <button id="allClear">AC</button>
+            </div>
 
-            <button class="smallBtn">4</button>
-            <button class="smallBtn">5</button>
-            <button class="smallBtn">6</button>
-            <button class="smallBtn">×</button>
+            <div class="rows" id="row2">
+                <button class="number">7</button>
+                <button class="number">8</button>
+                <button class="number">9</button>
+                <button class="operator">÷</button>
+            </div>
 
-            <button class="smallBtn">1</button>
-            <button class="smallBtn">2</button>
-            <button class="smallBtn">3</button>
-            <button class="smallBtn">-</button>
+            <div class="rows" id="row3">
+                <button class="number">4</button>
+                <button class="number">5</button>
+                <button class="number">6</button>
+                <button class="operator">×</button>
+            </div>
 
-            <button class="smallBtn">0</button>
-            <button class="smallBtn">.</button>
-            <button class="smallBtn">=</button>
-            <button class="smallBtn">+</button>
+            <div class="rows" id="row4">
+                <button class="number">1</button>
+                <button class="number">2</button>
+                <button class="number">3</button>
+                <button class="operator">-</button>
+            </div>
+
+            <div class="rows" id="row5">
+                <button class="number">0</button>
+                <button id="decimal">.</button>
+                <button id="equals">=</button>
+                <button class="operator">+</button>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>

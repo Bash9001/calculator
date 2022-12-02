@@ -11,37 +11,86 @@ body {
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    width: 800px;
-    border: 10px;
-    border-color: black;
     background-color: rgba(187, 187, 187, 0.467);
+    width: auto;
+    padding: 10px;
+    border: 10px;
+    margin: 5px;
+    border-color: black;
 }
 
 .screen {
     width: auto;
-    height: 100px;
+    height: auto;
+    width: 40vw;
+    border: 10px;
     background-color: rgb(113, 170, 118);
+    padding: 10px;
+    border: 10px;
+    margin: 5px;
+}
+
+#history {
+    width: auto;
+    height: 30px;
+    text-align: right;
+}
+
+#workingScreen {
+    width: auto;
+    height: 70px;
+    text-align: right;
 }
 
 .keypad {
     background-color: rgb(112, 112, 112);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    border: 10px;
+    margin: 5px;
 }
 
-.largeBtn {
+.rows {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: ;
+    padding: ;
+    border: ;
+    margin: 5px;
+}
+
+#row1 {
+    display: flex;
+}
+
+.button {
+    background-color: rgb(170, 170, 170);
     color: rgb(255, 255, 255);
+    width: 50px;
+    height: 35px;
+    padding: ;
+    border: ;
+    margin: 3px;
 }
 
-#allClear {
-    background-color: rgb(255, 72, 0);
+#prevAns {
+
+}
+
+#delete {
+    
 }
 
 #clear {
     background-color: rgb(46, 43, 255);
 }
 
-.smallBtn {
-    background-color: rgb(170, 170, 170);
-    color: rgb(255, 255, 255);
+#allClear {
+    background-color: rgb(255, 72, 0);
 }
 
 footer {
