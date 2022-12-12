@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .mainApp {
@@ -13,21 +15,21 @@ body {
     align-content: center;
     background-color: rgba(187, 187, 187, 0.467);
     width: auto;
-    padding: 10px;
-    border: 10px;
-    margin: 5px;
+    padding: 8px;
+    border-radius: 5px;
     border-color: black;
 }
 
 .screen {
     width: auto;
     height: auto;
-    width: 40vw;
+    width: auto;
     border: 10px;
     background-color: rgb(113, 170, 118);
     padding: 10px;
     border: 10px;
     margin: 5px;
+    border-radius: 2px;
 }
 
 #history {
@@ -44,45 +46,29 @@ body {
 
 .keypad {
     background-color: rgb(112, 112, 112);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    display: grid;
+    grid-template-columns: 66px 66px 66px 66px;
+    grid-template-rows: 44px 44px 44px 44px 44px;
+    column-gap: 5px;
+    row-gap: 5px;
     padding: 10px;
     border: 10px;
     margin: 5px;
-}
+    border-radius: 2px;
+ }
 
-.rows {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: ;
-    padding: ;
-    border: ;
-    margin: 5px;
-}
-
-#row1 {
-    display: flex;
-}
-
-.button {
-    background-color: rgb(170, 170, 170);
-    color: rgb(255, 255, 255);
-    width: 50px;
-    height: 35px;
-    padding: ;
-    border: ;
-    margin: 3px;
+button {
+    background-color: rgb(220, 220, 220);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
 }
 
 #prevAns {
-
+    background-color: rgb(177, 43, 255);
 }
 
 #delete {
-    
+    background-color: rgb(255, 160, 43);
 }
 
 #clear {
@@ -91,6 +77,10 @@ body {
 
 #allClear {
     background-color: rgb(255, 72, 0);
+}
+
+.operator {
+    background-color: rgb(149, 155, 198);
 }
 
 footer {
